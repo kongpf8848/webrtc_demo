@@ -1,5 +1,5 @@
 # webrtc_demo
-AppRTC，WebRTC Android Demo，供学习研究WebRTC使用。
+AppRTCMobile，WebRTC Android Demo，供学习研究WebRTC使用。
 
 # 截图
 |Screenshot_1|Screenshot_2|
