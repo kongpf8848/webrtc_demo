@@ -166,7 +166,7 @@ public class RoomParametersFetcher {
     Log.d(TAG, "Request TURN from: " + url);
     HttpURLConnection connection = (HttpURLConnection) new URL(url).openConnection();
     connection.setDoOutput(true);
-    connection.setRequestProperty("REFERER", "http://192.168.199.178:8080");
+    connection.setRequestProperty("REFERER", "http://192.168.199.204:8080");
     connection.setConnectTimeout(TURN_HTTP_TIMEOUT_MS);
     connection.setReadTimeout(TURN_HTTP_TIMEOUT_MS);
     int responseCode = connection.getResponseCode();
